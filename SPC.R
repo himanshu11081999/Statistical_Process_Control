@@ -1,3 +1,13 @@
+ List of required packages
+required_packages <- c("shiny", "ggplot2", "readxl", "dplyr", "qcc")
+
+# Install missing packages
+for (pkg in required_packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    install.packages(pkg)
+  }
+}
+
 library(shiny)
 library(ggplot2)
 library(readxl)

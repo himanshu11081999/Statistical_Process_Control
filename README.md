@@ -14,7 +14,7 @@ my_shiny_app/
 
 
 
-#Bash Or Terminal Or Command Prompt
+# Bash Or Terminal Or Command Prompt
 ```
 Rscript -e "shiny::runApp('/path to your R script file/SPC.R', launch.browser = TRUE)"
 ```
